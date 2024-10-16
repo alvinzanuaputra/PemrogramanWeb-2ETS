@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAMES-WORLD</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/globe.css">
+  <link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+<body id="top">
+  <header class="header">
+    <div class="header-bottom" data-header>
+      <div class="container">
+        <a href="#" class="logo">GAMES-WORLD</a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link skewBg" data-nav-link><i class="bi bi-house-fill"></i> Beranda</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#jelajahi" class="navbar-link skewBg" data-nav-link><i class="bi bi-search"></i> Jelajahi</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#trending" class="navbar-link skewBg" data-nav-link><i class="bi bi-fire"></i> Trending</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#kontak" class="navbar-link skewBg" data-nav-link><i class="bi bi-person-lines-fill"></i>
+                Kontak</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" class="menu"><i class="bi bi-list" ></i></ion-icon>
+            <ion-icon name="close-outline" class="close"><i class="bi bi-x" ></i></ion-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <div class="hero" id="home">
+        <div class="herocont container flex">
+          <div class="labels flex">
+            <div class="flex">
+              <h3 class="flex">
+                <i class="bi bi-tv-fill"></i>
+                <p href="/">PLAYSTATION 4</p>
+                <span>,</span>
+                <p href="/">STEAM</p>
+                <span>,</span>
+              </h3>
+            </div>
+            <div class="flex">
+              <i class="bi bi-tags-fill" style="font-size: 15px;"></i>
+              <h3 class="flex">
+                <p href="/">ACTION</p>
+                <span>,</span>
+                <p href="/">ADVANTURE</p>
+              </h3>
+            </div>
+          </div>
+          <h1 id="hero_title">EGYPT AND WORLD</h1>
+          <h5>"Selamat datang di GAMES-WORLD, sumber utama untuk artikel mendalam tentang game dan alasan di balik
+            popularitasnya. Kami menyajikan analisis detail, ulasan, dan fitur yang menjelaskan apa yang membuat
+            game-game ini dicintai oleh banyak orang. Temukan berbagai informasi menarik tentang dunia game yang tidak
+            hanya menghibur, tetapi juga menginspirasi."</h3>
+            <div class="herobtn flex">
+              <a href="#jelajahi" id="d_btn1"><button class="button type1"></button></a>
+              <a href="#trending" id="d_btn1"><button class="button type2"></button></a>
+            </div>
+        </div>
+        <div class="dots flex">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+
+      <section class="section brand" aria-label="brand">
+        <div class="container">
+          <ul class="has-scrollbar">
+            <li class="brand-item">
+              <img src="./assets/images/brand-1.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+            <li class="brand-item">
+              <img src="./assets/images/brand-2.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+            <li class="brand-item">
+              <img src="./assets/images/brand-3.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+            <li class="brand-item">
+              <img src="./assets/images/brand-4.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+            <li class="brand-item">
+              <img src="./assets/images/brand-5.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+            <li class="brand-item">
+              <img src="./assets/images/brand-6.png" width="90" height="90" loading="lazy" alt="brand logo">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section class="section blog" id="jelajahi" aria-label="blog">
+        <div class="container">
+          <h2 class="h2 section-title">
+            Cari & Baca <span class="span">Artikel</span>
+          </h2>
+          <div class="search-container">
+            <form class="search" id="search">
+              <div class="icon" onclick="toggleSearch()"></div>
+              <div class="input">
+                <input type="text" class="form-control" placeholder="Cari artikel..." aria-label="Cari artikel..." id="find-article">
+              </div>
+              <span class="clear" onclick="clearSearch()"></span>
+            </form>
+        
+            <span class="search-label" id="searchLabel">Tekan untuk mencari</span>
+          </div>
+          
+         
+
+          <ul class="blog-list" id="article-list">
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/backgroundgameimg.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <i class="bi bi-person-fill"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+
+                  </ul>
+
+                  <h3>
+                    <a href="./detail1.html" class="card-title">Assassin's Creed Origins</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Permainan peran aksi tahun 2017 yang dikembangkan oleh Ubisoft Montreal dan diterbitkan oleh Ubisoft ...
+                
+                  </p>
+
+                  <a href="./detail1.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/sliderimg2.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail2.html" class="card-title">Gim "Tomb Raider</a>
+                  </h3>
+                  <p class="card-text">
+                    Gim "Tomb Raider: Definitive Edition" hadir di PC setelah 10 tahun lamanya dia akan rilis ...
+                  </p>
+                  <a href="./detail2.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/uncharted-4.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail3.html" class="card-title">Uncharted 4: A Thief's End</a>
+                  </h3>
+                  <p class="card-text">
+                    Ditetapkan tiga tahun setelah peristiwa Uncharted 3: Drake's Deception, Nathan Drake mungkin telah ... 
+                  </p>
+                  <a href="./detail3.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/lords-of-the-fallen-warrior.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail4.html" class="card-title">Game Lords Of The Fallen</a>
+                  </h3>
+                  <p class="card-text">
+                    Lords of the Fallen adalahpermainan video aksi peran yang dikembangkan oleh Deck13 dan CI ...
+                  </p>
+                  <a href="./detail4.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/blog-1.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail5.html" class="card-title">Burnout Revenge</a>
+                  </h3>
+                  <p class="card-text">
+                    Mirip dengan pendahulunya Burnout 3: Takedown, Revenge berfokus pada campuran ...
+                  </p>
+                  <a href="./detail5.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/box-2-bg.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail6.html" class="card-title">Call of Duty</a>
+                  </h3>
+                  <p class="card-text">
+                    Perang Dunia II adalah gim Call of Duty yang dibuat dengan sangat baik , tetapi versinya ...
+                  </p>
+                  <a href="./detail6.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/gamesearchbg.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail7.html" class="card-title">Middle-earth: Shadow of Mordor</a>
+                  </h3>
+                  <p class="card-text">
+                    Sebuah cerita asli berdasarkan legendarium yang dibuat oleh J. R. R. Tolkien ...
+                  </p>
+                  <a href="./detail7.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/gta-5.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail8.html" class="card-title">Grand Theft Auto V</a>
+                  </h3>
+                  <p class="card-text">
+                    Ini adalah entri utama ketujuh dalam seri Grand Theft Auto , mengikuti Grand Theft Auto IV tahun 2008 ...
+                  </p>
+                  <a href="./detail8.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/blog-2.jpg" width="400" height="290" loading="lazy" alt="The Walking Dead"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail9.html" class="card-title">The Walking Dead</a>
+                  </h3>
+                  <p class="card-text">
+                    Permainan video petualangan
+                  grafis point-and-click yang dikembangkan oleh ...
+                  </p>
+                  <a href="./detail9.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/apek.jpg" width="400" height="290" loading="lazy"
+                    alt="Defense Of The Ancients" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail10.html" class="card-title">Apex Legends</a>
+                  </h3>
+                  <p class="card-text">
+                    Di tengah menanjaknya popularitas game battle royale, Respawn dan EA merilis Apex Legends. Game battle ...
+                  </p>
+                  <a href="./detail10.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/Valorant.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail11.html" class="card-title">Valorant</a>
+                  </h3>
+                  <p class="card-text">
+                    Valorant akan mengajak kamu bertanding lima lawan lima. Kamu akan bertarung dalam 13 ronde...
+                  </p>
+                  <a href="./detail11.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/RF_Online.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="./detail12.html" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail12.html" class="card-title">Rising Force Online Remastered</a>
+                  </h3>
+                  <p class="card-text">
+                    Salah satu game PC online terbaik ini sempat “dimatikan” oleh publisher di ...
+                  </p>
+                  <a href="./detail12.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/res4.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="./detail13.html" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail13.html" class="card-title">Resident Evil 4</a>
+                  </h3>
+                  <p class="card-text">
+                    Resident Evil 4, yang dikenal di Jepang sebagai Biohazard 4 adalah sebuah permainan...
+                  </p>
+                  <a href="./detail13.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/nightmare2.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="./detail14.html" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail14.html" class="card-title">Little Nightmares 2</a>
+                  </h3>
+                  <p class="card-text">
+                    Ceritanya mengikuti Mono, yang harus bekerja sama dengan Six, protagonis dari ...
+                  </p>
+                  <a href="./detail14.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 290;">
+                  <img src="./assets/images/rdr2.jpg" width="400" height="290" loading="lazy"
+                    alt="Shooter Action Video" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <i class="bi bi-person"></i>
+                      <a href="#" class="item-text">Admin</a>
+                    </li>
+                    <li class="card-meta-item">
+                      <i class="bi bi-calendar2-week"></i>
+                      <time datetime="2022-09-19" class="item-text">13 Oktober 2024</time>
+                    </li>
+                  </ul>
+                  <h3>
+                    <a href="./detail15.html" class="card-title">Red Dead Redemption 2</a>
+                  </h3>
+                  <p class="card-text">
+                    Game ini adalah entri ketiga dalam seri Red Dead dan merupakan prekuel dari game Red...
+                  </p>
+                  <a href="./detail15.html" class="card-link">
+                    <span class="span">Baca Lebih</span>
+                    <ion-icon name="caret-forward"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </li>
+            
+            
+          </ul>
+
+          <p id="no-articles" style="display: none; color: aliceblue;">Artikel Tidak Ditemukan !</p>
+          <div id="loading" style="display: none; margin-left: 2rem;">
+            <span class="loader"></span> Loading...
+          </div>
+        </div>
+      </section>
+      
+      <div class="section-wrapper" id="trending">
+        <section class="section latest-game" aria-label="latest game">
+          <div class="container">
+            <h2 class="h2 section-title">
+              Trending <span class="span">Games</span>
+            </h2>
+            <ul class="has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./assets/images/latest-game-1.jpg" width="400" height="470" loading="lazy"
+                      alt="White Walker Daily" class="img-cover">
+                  </figure>
+                  <div class="card-content">
+                    <a href="#" class="card-badge skewBg">Zombie</a>
+                    <h3 class="h3">
+                      <a href="#" class="card-title">White Walker <span class="span">Daily</span></a>
+                    </h3>
+                    <p class="card-price">
+                      Downloads : <span class="span">10K ++</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./assets/images/latest-game-2.jpg" width="400" height="470" loading="lazy"
+                      alt="Hunter Killer II" class="img-cover">
+                  </figure>
+                  <div class="card-content">
+                    <a href="#" class="card-badge skewBg">Adventure</a>
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Hunter Killer <span class="span">II</span></a>
+                    </h3>
+                    <p class="card-price">
+                      Downloads : <span class="span">10K ++</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+                  <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                    <img src="./assets/images/latest-game-3.jpg" width="400" height="470" loading="lazy"
+                      alt="Cyberpunk Daily" class="img-cover">
+                  </figure>
+                  <div class="card-content">
+                    <a href="#" class="card-badge skewBg">Action</a>
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Cyberpunk <span class="span">Daily</span></a>
+                    </h3>
+                    <p class="card-price">
+                      Downloads : <span class="span">10K ++</span>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+    </article>
+  </main>
+  <footer class="footer" id="kontak">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">GAMES-WORLD</a>
+          <p class="footer-text">
+            Games-World adalah sumber utama untuk artikel mendalam tentang game dan alasan di balik popularitasnya
+          </p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <address class="item-text">
+                Alamat : Semolowaru Utara VIII / 21, Sukolilo, Surabaya, Jawa Timur, Indonesia 60119
+              </address>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-telephone-forward-fill"></i>
+              </div>
+              <a href="#" class="item-text">Phone : +62 812 1783 5337</a>
+            </li>
+            <li class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-envelope-arrow-down-fill"></i>
+              </div>
+              <a href="#" class="item-text">Email : zanualvin06@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Teknologi</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">HTML 5</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">CSS</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">java Script</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Bootstrap-icons</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Artikel</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Game Viral</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Esport</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Berita Game</a>
+          </li>
+        </ul>
+        <div class="footer-wrapper">
+          <div class="social-wrapper">
+            <p class="footer-list-title">Ikuti Saya </p>
+            <ul class="social-list">
+              <li>
+                Facebook : Alvin Zanua Putra
+              </li>
+              <li>
+                Instagram : alvinzanua
+              </li>
+              <li>
+                Linkedin : Alvin Zanua Putra
+              </li>
+              <li>
+                Twitter : AlvinZanua
+              </li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <p class="footer-list-title">Kelas Pemrograman Web B</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2024 Games-World. All Right Reserved by <a href="#" class="copyright-link">alvinzanuaputra</a>
+        </p>
+        <img src="./assets/images/footer-bottom-img.png" width="340" height="21" loading="lazy" alt=""
+          class="footer-bottom-img">
+      </div>
+    </div>
+  </footer>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/jquery-3.6.0.js"></script>
+</body>
+</html>
